@@ -1,0 +1,72 @@
+.containrt {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.todoList {
+  margin: 0;
+  padding: 0;
+  width: 800px;
+  background-color: #8affff;
+}
+
+.inputArea {
+  margin: 0;
+  padding: 0;
+  background-color: #00d1d1;
+  color: white;
+}
+.inputArea h1 {
+  margin: 0;
+  padding: 40px 20px 0;
+}
+.inputArea div {
+  margin: 10px 0 0;
+  padding-bottom: 20px;
+}
+.inputArea button {
+  background-color: #007575;
+  border: none;
+  height: 40px;
+  width: 70px;
+}
+
+.inputArea input {
+  border: none;
+  height: 38px;
+  width: 400px;
+}
+/* -------------------------------- task style---------------------------------------- */
+.taskContainer {
+  position: relative;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.taskTxt {
+  position: absolute;
+  left: 0;
+
+  padding: 0 30px 10px;
+  font-size: 30px !important;
+}
+.taskBtns {
+  position: absolute;
+  padding: 0 30px 0 0;
+  right: 0;
+}
+
+.closeBtn {
+  background-color: #8affff;
+  border: none;
+}
+.closeBtn:hover {
+  background-color: #00d1d1;
+}
